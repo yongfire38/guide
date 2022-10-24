@@ -103,9 +103,10 @@ Maven의 로컬 파일 저장소를 설정하기 위하여 제공한 [maven repo
   ![개발환경에서 egovframework.guide 프로젝트를 마우스 오른쪽 버튼으로 클릭하고 Run As>Maven Build를 클릭](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?w=600&media=egovframework:dev:%EB%A9%94%EC%9D%B4%EB%B8%90_%EB%B9%8C%EB%93%9C_%EC%88%98%ED%96%891.png)
 
 - Run 버튼을 클릭한다.
+
   ![Run 버튼을 클릭](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?w=600&media=egovframework:dev:%EB%A9%94%EC%9D%B4%EB%B8%90_%EB%B9%8C%EB%93%9C_%EC%88%98%ED%96%892.png)
 
--콘솔창에서 Maven 빌드의 결과를 확인하다. 메이븐 빌드는 프로젝트의 컴파일, 테스트, 패키징을 모두 수행하고 그 결과를 제공한다.
+-콘솔창에서 Maven 빌드의 결과를 확인한다. 메이븐 빌드는 프로젝트의 컴파일, 테스트, 패키징을 모두 수행하고 그 결과를 제공한다.
 
 ```
 [INFO] Scanning for projects...
@@ -154,10 +155,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 #### HelloWorld 실행순서
 
 - 프로젝트의 src/main/java에서 HelloWorldClient.java를 마우스 오른쪽 버튼으로 클릭하고 Run As>Java Application 을 클릭한다.
-  ![java에서 HelloWorldClient.java를 마우스 오른쪽 버튼으로 클릭하고 Run As>Java Application 을 클릭](https://www.egovframe.go.kr/wiki/lib/exe/detail.php?id=egovframework%3Adev4.0%3Agettingstarted&media=egovframework:dev:helloworld_%EC%8B%A4%ED%96%89.png)
+  ![java에서 HelloWorldClient.java를 마우스 오른쪽 버튼으로 클릭하고 Run As>Java Application 을 클릭](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev:helloworld_%EC%8B%A4%ED%96%89.png)
 
 - Console창에서 다음과 같은 실행 결과를 확인 할 수 있다.
-  ![Console창에서 다음과 같은 실행 결과를 확인](https://www.egovframe.go.kr/wiki/lib/exe/detail.php?id=egovframework%3Adev4.0%3Agettingstarted&media=egovframework:dev:helloworld_%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC.png)
+  ![Console창에서 다음과 같은 실행 결과를 확인](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev:helloworld_%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC.png)
 
 ### HelloWorld 테스트 실행
 
@@ -166,10 +167,10 @@ HelloWorld 프로젝트는 JUnit Test Framework 기반의 Test Case를 포함하
 #### HelloWorld 테스트 실행순서
 
 - 프로젝트의 src/test/java에서 HelloWorld 서비스의 junit test case(HelloWorldServiceTest.java)를 마우스 오른쪽 버튼으로 클릭하고 Run As>Junit test 을 클릭한다.
-  ![프로젝트의 src/test/java에서 HelloWorld 서비스의 junit test case(HelloWorldServiceTest.java)를 마우스 오른쪽 버튼으로 클릭하고 Run As>Junit test 을 클릭](https://www.egovframe.go.kr/wiki/lib/exe/detail.php?id=egovframework%3Adev4.0%3Agettingstarted&media=egovframework:dev:junit_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%8B%A4%ED%96%89.png)
+  ![프로젝트의 src/test/java에서 HelloWorld 서비스의 junit test case(HelloWorldServiceTest.java)를 마우스 오른쪽 버튼으로 클릭하고 Run As>Junit test 을 클릭](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev:junit_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%8B%A4%ED%96%89.png)
 
 - JUnit 결과창에서 다음과 같이 테스트(testSayHello)의 수행시간 및 성공여부를 확인 할 수 있다.
-  ![JUnit 결과창에서 다음과 같이 테스트(testSayHello)의 수행시간 및 성공여부를 확인](https://www.egovframe.go.kr/wiki/lib/exe/detail.php?id=egovframework%3Adev4.0%3Agettingstarted&media=egovframework:dev:junit_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.png)
+  ![JUnit 결과창에서 다음과 같이 테스트(testSayHello)의 수행시간 및 성공여부를 확인](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev:junit_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC.png)
 
 ## Step 3. 자세히 들여다 보기
 
