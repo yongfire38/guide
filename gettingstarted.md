@@ -48,8 +48,7 @@ Maven의 로컬 파일 저장소를 설정하기 위하여 제공한 [maven repo
 
 #### 종속라이브러리 설치순서
 
-    * Maven 설정파일 및 종속라이브러리를 포함한 [maven repostiory 4.0](https://naver.com) 를 다운로드 한다.
-
+- Maven 설정파일 및 종속라이브러리를 포함한 [maven repostiory 4.0](https://naver.com) 를 다운로드 한다.
 - 다운로드 받은 파일은 임의의 디렉토리에서 압축해제한다.(압축해제한 디렉토리는 **_[MavenRepository 설치디렉토리]_** 로 명명한다.)
 - 텍스트 에디터를 이용하여 **_[MavenRepository 설치디렉토리]_**/settings.xml 파일의 localRepository 항목의 값을 다음과 같이 수정한다.
 
@@ -60,3 +59,26 @@ Maven의 로컬 파일 저장소를 설정하기 위하여 제공한 [maven repo
     ...
 </settings>
 ```
+
+- settings.xml 참조 :[settings.xml](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev4.0:settings_4_0.zip)
+
+위 다운로드가 안될 시 [여기](http://maven.egovframe.kr/publist/HDD1/public/egovframework_v4.0/2_DevelopmentEnvironment/settings_4_0.zip)를 눌러서 받으세요.
+
+- 구현도구를 실행한다.
+- 구현도구의 window>preferences 메뉴를 선택하여 설정화면을 표시한다. 설정화면에서 Maven>Installtions 의 User Settings 항목을 **_[MavenRepository 설치디렉토리]_**/settings.xml 파일로 지정한다.
+- Local Repository 항목에 settings.xml 파일을 수정한 내용과 일치하는 것을 확인한다. 만약 설정한 내용과 다른 경우, refresh settings 버튼을 클릭한다.
+
+![메이븐 설정파일에 대한 화면](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev3.8:mavenrepository3.8.jpg)
+
+## Step 2. 프로젝트 생성(Core) 및 실행
+
+### 프로젝트 Import
+
+프로젝트 생성 및 실행을 위하여 본 가이드는 [HelloWorld 프로젝트 파일](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev4.0:egovgettingstarted.zip)을 제공한다. 아래의 순서에 따라 프로젝트를 생성한다.
+
+#### 프로젝트 생성순서
+
+- [HelloWorld 프로젝트 파일](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?media=egovframework:dev4.0:egovgettingstarted.zip)을 다운로드 받아서 임의의 디렉토리에 저장한다. (다운로드 받은 파일의 압축을 해제할 필요는 없다.)
+- 구현도구에서 File>Import.. 메뉴를 선택한다.
+
+![구현도구에서 File>Import.. 메뉴를 선택](https://www.egovframe.go.kr/wiki/lib/exe/fetch.php?w=800&media=egovframework:dev:%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EB%B0%98%EC%9E%85.png)
