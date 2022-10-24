@@ -53,8 +53,8 @@ Maven의 로컬 파일 저장소를 설정하기 위하여 제공한 [maven repo
 - 다운로드 받은 파일은 임의의 디렉토리에서 압축해제한다.(압축해제한 디렉토리는 **_[MavenRepository 설치디렉토리]_** 로 명명한다.)
 - 텍스트 에디터를 이용하여 **_[MavenRepository 설치디렉토리]_**/settings.xml 파일의 localRepository 항목의 값을 다음과 같이 수정한다.
 
-  <settings>
-      ...
-      <localRepository> [MavenRepository 설치디렉토리]/repository </localRepository>
-      ...
-  </settings>
+    <settings>
+    ...
+    <localRepository> [MavenRepository 설치디렉토리]/repository </localRepository>
+    ...
+    </settings>
