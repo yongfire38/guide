@@ -6,4 +6,4 @@
 
 [표준프레임워크 실행환경 4.0](https://www.naver.com/)
 
-[표준프레임워크 공통컴포넌트 v4.0 가이드](https://www.naver.com/)
+[표준프레임워크 공통컴포넌트 v4.0 가이드](https://github.com/yongfire38/guide/blob/main/dev4.0/init.md)
