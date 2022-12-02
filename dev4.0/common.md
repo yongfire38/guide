@@ -15,7 +15,10 @@
 - How to build
 
 - Documentation
-  -
+
+  - [표준프레임워크 가이드 문서](https://www.egovframe.go.kr/wiki/doku.php)로 연계
+  - [GitHub Wiki Pages](https://github.com/yongfire38/guide/wiki) 로 연결
+
 - Version History
 
   - 각 버전 업데이트 내역을 기술한다
